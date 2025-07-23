@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    border: 2px solid blue;
+}
+
+
+
+/* .img{
+    background-image:url(https://cdn.pixabay.com/photo/2025/07/12/10/04/reinebringen-9710168_1280.jpg);
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.img{
+    background-image:url(../imgs/nature.webp);
+    height: inherit;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+}
