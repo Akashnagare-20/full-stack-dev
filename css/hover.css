@@ -1,0 +1,16 @@
+.btn{
+    height: 100px;
+    width: 100px;
+    color: red;
+    background-color: aqua;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    height: 200px;
+    width: 200px;
+    color: green;
+    background-color: antiquewhite;
+    cursor: pointer;
+}

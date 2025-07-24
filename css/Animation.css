@@ -1,0 +1,14 @@
+.hello{
+    text-transform: capitalize;
+    font-size: 85px;
+    font-weight: 700;
+    text-align: center;
+    scale: 1;
+}
+
+.hello:hover{
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transform: scale(2);
+}

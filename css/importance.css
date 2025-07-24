@@ -1,0 +1,14 @@
+h1{
+    color: red !important;
+    background-color: black;
+}
+
+h1{
+    color: purple;
+    background-color: gray !important;
+}
+
+h1{
+    color: yellow;
+    background-color: orange;
+}
