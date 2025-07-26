@@ -1,0 +1,75 @@
+
+ /* this is for position */
+ 
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+ }
+
+ .parent{
+    width: inherit;
+    height: 60vh;
+    background-color: red;
+    position: relative;
+    top: 100px;
+ }
+
+ .child{
+    border: 2px solid black;
+    background-color: blue;
+    position: absolute;
+    width: inherit;
+    height: 40vh;
+    top: 70px;
+ }
+
+ .child > img{
+    width: auto;
+    height: 250px;
+    padding: 0 40%;
+ }  */
+
+/* this is for z-index */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+ }
+
+ .parent{
+    width: inherit;
+    height: 60vh;
+    background-color: red;
+    position: relative;
+    top: 100px;
+ }
+
+ .child, .child > img{
+    border: 2px solid black;
+    background-color: blue;
+    position: absolute;
+    width: inherit;
+    height: 40vh;
+    top: 70px;
+ }
+
+ .child > img{
+    width: auto;
+    height: 250px;
+    padding: 0 40%;
+ }

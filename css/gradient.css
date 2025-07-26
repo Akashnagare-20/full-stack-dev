@@ -1,0 +1,64 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+.container {
+    margin-top: 300px;
+    background: linear-gradient(to bottom left, gray, pink, green);
+    padding: 40px 0;
+}
+
+
+h1 {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(to bottom, blue, red, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.radial {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, yellow, orange, red, blue);
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 600px;
+     border-radius: 50%;
+}
+
+/* .radial{
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(red, yellow 10%, green 15%)
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 600px;
+} */
+
+
+.conic {
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(from 0deg at center,
+            red,
+            yellow,
+            green,
+            blue,
+            red
+        );
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
