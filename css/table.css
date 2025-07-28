@@ -1,0 +1,20 @@
+table{
+    border: 3px outset red;
+    text-align: center;
+
+    background-color: yellow;
+    margin: 20% 45%;
+    
+;}
+
+body{
+    height: 100vh;
+    border: 2px solid red
+}
+
+th,td{
+    border: 1px outset red;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}

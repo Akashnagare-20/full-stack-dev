@@ -1,0 +1,36 @@
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 200px;
+    transition: transform 0.5s ease;
+}
+
+a{
+    color: rgb(220, 92, 92);
+    text-decoration: none;
+}
+
+.translate:hover {
+    transform: translate(50px, 20px);
+}
+
+.roate:hover {
+    transform: rotate(90deg);
+}
+
+.scale:hover {
+    transform: scale(2);
+}
+
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.ancher:hover {
+    transform: translate(50px, 20px);
+}
