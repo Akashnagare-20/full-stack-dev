@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid red;
+    height: 100vh;
+}
+
+.box {
+    height: 100px;
+    width: 50%;
+    background-color: aqua;
+    line-height: 100px;
+    text-align: center;
+}
+
+.container {
+    border: 5px solid yellow;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    height: inherit;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.box:hover {
+    transform: translate(10px,10px);
+}  
+
+.child-1{
+    background-color: teal;
+}
+
+.child-2{
+    background-color: brown;
+}
+
+.child-3{
+    background-color: cadetblue;
+}
+
+.child-4{
+    background-color: chocolate;
+}
+
+.child-1,.child-3{
+    flex-shrink: 2;
+}
+
+.child-2,.child-4{
+    flex-grow: 0.2;
+}
