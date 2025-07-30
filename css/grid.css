@@ -9,10 +9,10 @@
     display: grid;
     gap: 10px;
     margin: 10px;
-    grid-template-areas: 
+    /* grid-template-areas: 
     'pic1 pic7 pic3'
     'pic4 pic5 pic6'
-    'pic2 pic8 .';
+    'pic2 pic8 .'; */
     grid-template-columns: repeat(3, 1fr);
 
 
@@ -25,7 +25,7 @@
     object-fit: cover;
 }
 
-.img-1{
+/* .img-1{
 grid-area: pic1;
 }
 .img-2{
@@ -48,4 +48,4 @@ grid-area: pic1;
 }
 .img-8{
     grid-area: pic8;
-}
+} */
