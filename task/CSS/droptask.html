@@ -25,7 +25,7 @@
 
 
 
-    <fieldset>
+    <!-- <fieldset>
         <legend>Age</legend>
         <select name="" id="" class="parent">
             <option value="None">None</option>
@@ -34,10 +34,35 @@
             <option value="Twenty">Twenty</option>
             <option value="Thirty">Thirty</option>
         </select>
+    </fieldset> -->
+    <fieldset class="mainCont">
+        <legend>Age</legend>
+        <div class="select_tag_dummy_div">
+            <input type="text" class="select_tag_dummy_input" id="select" name="select">
+        </div>
     </fieldset>
-
-
-
+    <div class="list" id="dropdowns">
+        <ul>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+        </ul>
+    </div>
 </body>
+<script>
+    const body = document.querySelector('body');
+    const input = document.querySelector('#select');
+    const dropdowns = document.querySelector('#dropdowns');
 
+    input.addEventListener('focus', () => {
+        dropdowns.classList.add('block');
+    });
+
+    body.addEventListener('focusout', () => {
+        dropdowns.classList.remove('block');
+    });
+
+
+</script>
 </html>

@@ -1,0 +1,12 @@
+body{
+    counter-reset: value;
+}
+
+.text:hover{
+    font-size: 4rem !important;
+}
+
+h2::before{
+    counter-increment: value;
+    content: "DATA" counter(value) "->";
+}
