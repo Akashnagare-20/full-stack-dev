@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.text{
+    font-size: xx-large;
+    font-family: Lobster Two;
+    text-align: center;
+    background: linear-gradient(to bottom left, blue, red, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 70px solid transparent;
+    border-image: url(https://png.pngtree.com/png-vector/20230501/ourmid/pngtree-luxury-golden-rectangle-certificate-border-pattern-line-photo-frame-islamic-wedding-vector-png-image_7077586.png) 50 repeat;
+}
