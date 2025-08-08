@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+    color: black;
+    height: 20px;
+    width: 50%;
+}
+
+a{
+    height: 15px;
+    color: white;
+    background: rgb(116, 117, 143);
+    text-align: center;
+    line-height: 15px;
+    padding: 9px;
+    border-radius: 8px;
+}
+
+#box{
+    width: 20px;
+}
+
+.page{
+    width: 80px ;
+}
+
+.active{
+    background: red;
+    color: white;
+}
+a:hover{
+    background: rgb(0, 0, 0);
+    color: chartreuse;
+}

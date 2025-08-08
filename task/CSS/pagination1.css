@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+    background: rgb(126, 173, 211);
+    color: black;
+    height: 20px;
+    width: 50%;
+}
+
+a{
+    height: 15px;
+    color: rgb(12, 27, 78);
+    background: white;
+    text-align: center;
+    line-height: 20px;
+    padding: 9px;
+}
+
+#box{
+    width: 20px;
+}
+
+.page{
+    width: 100px ;
+}
+
+.active{
+    background: rgb(49, 81, 221);
+    color: white;
+}
+a:hover{
+    background: rgb(211, 208, 208);
+}
