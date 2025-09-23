@@ -1,0 +1,32 @@
+.card-div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-div>img {
+    width: fit-content;
+    height: 200px;
+
+}
+
+body {
+    background: #2A7B9B;
+    background: #0f0109;
+    background: linear-gradient(90deg, rgba(15, 1, 9, 1) 0%, rgba(46, 163, 95, 1) 50%, rgba(184, 172, 72, 1) 100%);
+    margin: 20px;
+}
+
+#maincontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
