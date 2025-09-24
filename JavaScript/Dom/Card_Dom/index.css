@@ -11,7 +11,7 @@ h1 {
 }
 
 .card-div>img {
-    width: fit-content;
+    width: fit-content; 
     height: 200px;
 
 }
